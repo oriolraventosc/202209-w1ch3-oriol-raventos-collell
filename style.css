@@ -1,5 +1,6 @@
 html {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffc845;
 }
 
 body {
@@ -14,18 +15,18 @@ body {
 
 .menu h1 {
   flex: 0.8;
-  font-size: 40px;
+  font-size: 3.5vw;
   color: #ffff;
 }
 
 .item_menu {
-  font-size: 20px;
+  font-size: 2.5vw;
   padding-right: 10px;
   color: #ffff;
 }
 
 .item_menu2 {
-  font-size: 20px;
+  font-size: 2.5vw;
   color: #ffff;
 }
 
@@ -51,4 +52,53 @@ header {
 .flex-box1 p {
   color: #ffff;
   font-size: 25px;
+}
+
+.producto {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.lista {
+  list-style: none;
+  justify-content: center;
+  align-self: center;
+  flex: 0.6;
+  margin-left: -45px;
+}
+
+li {
+  list-style: none;
+}
+
+.x {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.listaDeIngredientes {
+  margin-top: -16px;
+  background-color: #ffc845;
+}
+
+.tachar {
+  text-decoration: line-through;
+}
+
+.black_line {
+  height: 1px;
+  background-color: black;
+  margin-top: -15px;
+}
+
+.flex-box3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-box3 p {
+  margin-right: 9.5%;
+  font-size: 25px;
+  margin-top: 15px;
 }
