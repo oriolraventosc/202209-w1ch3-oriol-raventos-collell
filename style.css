@@ -20,18 +20,18 @@ body {
 
 .menu h1 {
   flex: 0.8;
-  font-size: 3.5vw;
+  font-size: 20px;
   color: #ffff;
 }
 
 .item_menu {
-  font-size: 2.5vw;
+  font-size: 13px;
   padding-right: 10px;
   color: #ffff;
 }
 
 .item_menu2 {
-  font-size: 2.5vw;
+  font-size: 13px;
   color: #ffff;
 }
 
@@ -56,7 +56,7 @@ header {
 
 .flex-box1 p {
   color: #ffff;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .producto {
