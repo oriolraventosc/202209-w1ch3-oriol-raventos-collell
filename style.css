@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&family=Roboto&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    Arial, sans-serif;
   background-color: #ffc845;
 }
 
@@ -46,7 +51,7 @@ header {
 }
 
 .flex-box1 a {
-  flex: 0.8;
+  flex: 0.6;
 }
 
 .flex-box1 p {
@@ -101,4 +106,43 @@ li {
   margin-right: 9.5%;
   font-size: 25px;
   margin-top: 15px;
+}
+
+.formulario-box {
+  margin-top: -5px;
+  padding-left: 25px;
+}
+
+[for="nombre"] {
+  display: block;
+  margin-top: -4px;
+}
+
+[id="nombre"] {
+  margin-top: 5px;
+  height: 25px;
+  width: 50vw;
+}
+
+[for="precio"] {
+  display: block;
+  margin-top: 15px;
+}
+
+[id="precio"] {
+  margin-top: 5px;
+  height: 25px;
+  width: 50vw;
+  display: inline;
+}
+
+[type="submit"] {
+  display: block;
+  margin-top: 19px;
+  width: 36vw;
+  height: 5vh;
+  background-color: #5fa789;
+  border: none;
+  color: #ffff;
+  font-size: 17px;
 }
